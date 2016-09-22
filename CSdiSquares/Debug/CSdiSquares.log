@@ -1,0 +1,48 @@
+﻿Build started 2016/09/20 17:24:09.
+     1>Project "F:\Visual Studio 2010\Projects\Contacts\CSdiSquares\CSdiSquares.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\CSdiSquares.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\CSdiSquares.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\CSdiSquares.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CSdiSquares.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CSdiSquares.cpp CSdiSquaresDoc.cpp CSdiSquaresView.cpp MainFrm.cpp
+         MainFrm.cpp
+         CSdiSquaresView.cpp
+         CSdiSquaresDoc.cpp
+         CSdiSquares.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\CSdiSquares.res" CSdiSquares.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CSdiSquares.exe.embed.manifest.res" Debug\CSdiSquares_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Visual Studio 2010\Projects\Contacts\Debug\CSdiSquares.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CSdiSquares.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Visual Studio 2010\Projects\Contacts\Debug\CSdiSquares.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Visual Studio 2010\Projects\Contacts\Debug\CSdiSquares.lib" /MACHINE:X86 Debug\CSdiSquares.res
+         Debug\CSdiSquares.exe.embed.manifest.res
+         Debug\CSdiSquares.obj
+         Debug\CSdiSquaresDoc.obj
+         Debug\CSdiSquaresView.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\CSdiSquares.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\CSdiSquares.exe.embed.manifest" /manifest Debug\CSdiSquares.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\CSdiSquares.exe.embed.manifest.res" Debug\CSdiSquares_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Visual Studio 2010\Projects\Contacts\Debug\CSdiSquares.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\CSdiSquares.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Visual Studio 2010\Projects\Contacts\Debug\CSdiSquares.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Visual Studio 2010\Projects\Contacts\Debug\CSdiSquares.lib" /MACHINE:X86 Debug\CSdiSquares.res
+         Debug\CSdiSquares.exe.embed.manifest.res
+         Debug\CSdiSquares.obj
+         Debug\CSdiSquaresDoc.obj
+         Debug\CSdiSquaresView.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         CSdiSquares.vcxproj -> F:\Visual Studio 2010\Projects\Contacts\Debug\CSdiSquares.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\CSdiSquares.unsuccessfulbuild".
+         Touching "Debug\CSdiSquares.lastbuildstate".
+     1>Done Building Project "F:\Visual Studio 2010\Projects\Contacts\CSdiSquares\CSdiSquares.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.45
