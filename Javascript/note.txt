@@ -1,1 +1,6 @@
-：这是一个新的文件声明
+﻿：git三步(BowenTH)
+
+git add .
+git status
+git commit -m
+git push
