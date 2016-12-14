@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/My_app.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();      	
+
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-plusempty mui-pull-right"></a>
+	    <!--
+        	作者：1578779013@qq.com
+        	时间：2016-12-14
+        	描述：header添加
+        -->
+	    <h1 class="mui-title">阿里聊</h1>
+	</header>
+
+	<!--<ul class="mui-table-view">
+	    <li class="mui-table-view-cell mui-media">
+	        <a href="javascript:alert('welcome to WeChat');">
+	            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+	            <div class="mui-media-body">
+	                幸福
+	                <p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+	            </div>
+	        </a>
+	    </li>
+	    <li class="mui-table-view-cell mui-media">
+	        <a href="javascript:alert('welcome to WeChat');">
+	            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+	            <div class="mui-media-body">
+	                木屋
+	                <p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+	            </div>
+	        </a>
+	    </li>
+	    <li class="mui-table-view-cell mui-media">
+	        <a href="javascript:alert('welcome to WeChat');">
+	            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+	            <div class="mui-media-body">
+	                CBD
+	                <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+	            </div>
+	        </a>
+	    </li>
+	</ul>-->
+	<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=800 src="http://music.163.com/outchain/player?type=0&id=528929431&auto=1&height=430"></iframe>-->
+	<nav class="mui-bar mui-bar-tab">
+		<!--
+        	作者：1578779013@qq.com
+        	时间：2016-12-14
+        	描述：添加底栏
+        -->
+	    <a class="mui-tab-item mui-active" href="#tabbar">
+	        <span class="mui-icon mui-icon-chat"></span>
+	        <span class="mui-tab-label">阿里聊</span>
+	    </a>
+	    <a class="mui-tab-item"  href="#tabbar-with-chat">
+	        <span class="mui-icon mui-icon-phone"></span>
+	        <span class="mui-tab-label">通讯录</span>
+	    </a>
+	     <a class="mui-tab-item"  href="#My-Music">
+	        <span class="mui-icon"><img class="mui-icon" src="img/music.png" alt="music" /></span>
+	        <span class="mui-tab-label">音乐</span>
+	    </a>
+	    <a class="mui-tab-item" href="#Accelerometer">
+	        <span class="mui-icon mui-icon-email"></span>
+	        <span class="mui-tab-label">发现</span>
+	    </a>
+	    <a class="mui-tab-item" href="#tabbar-with-map">
+	        <span class="mui-icon mui-icon-gear"></span>
+	        <span class="mui-tab-label">我</span>
+	    </a>
+	</nav>
+
+	<div class="mui-content">
+		<!--
+        	作者：1578779013@qq.com
+        	时间：2016-12-14
+        	描述：添加每个底栏tab对应的功能
+        -->
+			<div id="tabbar" class="mui-control-content mui-active ">
+				<!--<div class="title">这是div模式选项卡中的第1个子页面.</div>
+				<div class="title">何谓div模式的选项卡？
+					其实就是通过DIV模拟一个独立页面，通过DIV的显示、隐藏模拟不同页面的切换，典型的SPA模式；</div>
+				<div class="title">
+					这种模式适合简单业务系统，因为每个选项卡内容要写在一个DIV中，
+					若逻辑复杂，会导致当前页面DOM结构繁杂，造成webview响应缓慢，甚至崩溃；
+					因此若系统较复杂，需要下拉刷新等操作，推荐使用webview模式的选项卡；</div>-->
+				<ul class="mui-table-view">
+				    <li class="mui-table-view-cell mui-media">
+				        <a href="javascript:;">
+				            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+				            <div class="mui-media-body">
+				                幸福
+				                <p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+				            </div>
+				        </a>
+				    </li>
+				    <li class="mui-table-view-cell mui-media">
+				        <a href="javascript:;">
+				            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+				            <div class="mui-media-body">
+				                木屋
+				                <p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+				            </div>
+				        </a>
+				    </li>
+				    <li class="mui-table-view-cell mui-media">
+				        <a href="javascript:;">
+				            <img class="mui-media-object mui-pull-left" src="http://placehold.it/40x30">
+				            <div class="mui-media-body">
+				                CBD
+				                <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+				            </div>
+				        </a>
+				    </li>
+				</ul>
+			</div>
+			<div id="tabbar-with-chat" class="mui-control-content">
+				<ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="img/1.png">
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name">叶文洁</h4>
+									<span class="oa-contact-position mui-h6">董事长</span>
+								</div>
+								<p class="oa-contact-email mui-h6">
+									yewenjie@sina.com
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="img/1.png">
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name">艾AA</h4>
+									<span class="oa-contact-position mui-h6">总经理</span>
+								</div>
+								<p class="oa-contact-email mui-h6">
+									aaa@163.com
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="img/2.png">
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name">罗辑</h4>
+									<span class="oa-contact-position mui-h6">员工</span>
+								</div>
+								<p class="oa-contact-email mui-h6">
+									luoji@126.com
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="img/1.png">
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name">云天明</h4>
+									<span class="oa-contact-position mui-h6">员工</span>
+								</div>
+								<p class="oa-contact-email mui-h6">
+									ytm@163.com
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="mui-table-view-cell">
+					<div class="mui-slider-cell">
+						<div class="oa-contact-cell mui-table">
+							<div class="oa-contact-avatar mui-table-cell">
+								<img src="img/1.png">
+							</div>
+							<div class="oa-contact-content mui-table-cell">
+								<div class="mui-clearfix">
+									<h4 class="oa-contact-name">史强</h4>
+									<span class="oa-contact-position mui-h6">员工</span>
+								</div>
+								<p class="oa-contact-email mui-h6">
+									shiqiang@gmail.com
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			</div>
+			<div id="My-Music" class="mui-control-content">
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=360 height=930 src="http://music.163.com/outchain/player?type=0&amp;id=528929431&amp;auto=1&amp;height=430"></iframe>
+			</div>
+			<div id="tabbar-with-map" class="mui-control-content">
+				<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right ">
+						<span class="mui-icon mui-icon-pengyouquan"></span>
+						新消息通知
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-locked"></span>
+						隐私
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-gear-filled"></span>
+						通用
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view" style="margin-top: 25px;">
+				<li class="mui-table-view-cell">
+					<a class="mui-navigate-right">
+						<span class="mui-icon mui-icon-gear"></span>
+						关于mui
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view" style="margin-top: 25px;">
+				<li class="mui-table-view-cell">
+					<a style="text-align: center;color: #FF3B30;">
+						退出登录
+					</a>
+				</li>
+			</ul>
+			</div>
+			<div id="Accelerometer" class="mui-control-content">				
+				<div class="nvbt iback" ></div>
+				<div class="nvtt">Accelerometer</div>
+				<div class="nvbt idoc" ></div>
+				</header>
+				<div id="dcontent" class="dcontent">
+				<br>
+				<div class="button" > 摇一摇 </div>
+				<br>
+				<ul class="dlist">
+				</div>
+				<div id="output"> Accelerometer可获取设备加速度传感器信息，包括x轴（屏幕水平方向）、y轴（垂直屏幕水平方向）、z轴（垂直屏幕平面方向）三个方向的加速度信息。 </div>
+							
+			</div>
+	</div>
+</body>
+</html>

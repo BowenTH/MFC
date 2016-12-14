@@ -1,0 +1,12 @@
+
+header.mui-bar-nav{
+	background-color: #000000;
+}
+
+header a.mui-icon-plusempty,h1.mui-title{
+	color: #FFFFFF;
+}
+
+.mui-table-view{
+	padding-top: 45px;
+}

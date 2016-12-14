@@ -1,0 +1,15 @@
+{
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/My_app.css",
+      "css/mui.min.css",
+      "img/music.png",
+      "img/2.png",
+      "img/1.png",
+      "css/common.css"
+    ],
+    "refer": []
+  }
+}
